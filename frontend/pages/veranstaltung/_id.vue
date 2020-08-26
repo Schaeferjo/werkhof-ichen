@@ -33,6 +33,8 @@
           <v-card-text>
             <strong> {{ veranstaltung.Datum | formatDate }} Uhr </strong>
           </v-card-text>
+          <veranstaltungs-zeiten :veranstaltung="veranstaltung">
+          </veranstaltungs-zeiten>
           <v-card-text>
             <registration-form
               v-if="displayForm"
@@ -83,10 +85,12 @@
 <script>
 import RegistrationForm from '~/components/RegistrationForm'
 import isAvailable from '~/helpers/isAvailable'
+import VeranstaltungsZeiten from '~/components/VeranstaltungsZeiten'
 
 export default {
   components: {
     RegistrationForm,
+    VeranstaltungsZeiten,
   },
   async asyncData(context) {
     const veranstaltung = await context.$axios.$get(

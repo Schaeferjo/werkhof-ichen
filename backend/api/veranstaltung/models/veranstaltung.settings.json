@@ -50,6 +50,11 @@
     },
     "Beschreibung": {
       "type": "text"
+    },
+    "weitereZeiten": {
+      "type": "component",
+      "repeatable": true,
+      "component": "calendar.veranstaltungszeiten"
     }
   }
 }

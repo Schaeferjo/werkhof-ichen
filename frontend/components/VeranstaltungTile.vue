@@ -16,6 +16,8 @@
         <p>{{ veranstaltung.Beschreibung }}</p>
         <p>{{ veranstaltung.Preis }} Euro</p>
       </v-card-text>
+      <veranstaltungs-zeiten :veranstaltung="veranstaltung">
+      </veranstaltungs-zeiten>
       <v-card-text>
         <template v-if="available">
           <strong class="success--text">
@@ -43,9 +45,13 @@
 </template>
 
 <script>
+import VeranstaltungsZeiten from '~/components/VeranstaltungsZeiten'
 import isAvailable from '~/helpers/isAvailable'
 
 export default {
+  components: {
+    VeranstaltungsZeiten,
+  },
   props: {
     veranstaltung: {
       type: Object,
