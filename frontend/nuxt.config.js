@@ -12,11 +12,6 @@ const colors = {
   ichen_brown: '#48413d',
 }
 
-const axiosConfig = {}
-if (process.env.NODE_ENV === 'development') {
-  axiosConfig.proxy = true
-  axiosConfig.prefix = '/api'
-}
 
 const apiUrl = process.env.API_URL || 'http://localhost:1337'
 const clientUrl = process.env.URL || 'http://localhost:3000'
@@ -25,11 +20,6 @@ const description =
   'werkhof ichen Lohmar: Nähkurse für Kinder/ Jugendliche/ Erwachsene, Geburtstag-Näh-Events, großzügiges Platzangebot, Anfertigungen, Kinderlederhosen'
 
 export default {
-  /*
-   ** Nuxt rendering mode
-   ** See https://nuxtjs.org/api/configuration-mode
-   */
-  mode: 'universal',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -110,7 +100,10 @@ export default {
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
-  axios: axiosConfig,
+  axios: {
+    proxy: true,
+    prefix: '/api'
+  },
 
   proxy: {
     '/uploads/': {
