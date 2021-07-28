@@ -27,6 +27,10 @@ Hallo  ${anmeldung.name},
 
 vielen Dank für Ihre Anmeldung für die Veranstaltung "${anmeldung.veranstaltung.Titel}" am ${format(veranstaltungs_datum, 'dd.MM.yyyy')}.
 
+Ihre Kontaktdaten:
+Telefonnummer: ${anmeldung.telefonNummer}
+E-Mailadresse: ${anmeldung.email}
+
 Damit der Teilnehmerplatz verbindlich reserviert wird, überweisen Sie bitte bis zum ${format(date_payment, 'dd.MM.yyyy')} den Betrag in Höhe von ${anmeldung.veranstaltung.Preis} Euro auf folgendes Konto:
 
 IBAN: DE24370502990163007123
@@ -67,6 +71,11 @@ Breidt, den ${format(anmelde_datum, 'dd.MM.yyyy')}
 <p>Hallo  ${anmeldung.name},</p>
 <p>
 vielen Dank für Ihre Anmeldung für die Veranstaltung "${anmeldung.veranstaltung.Titel}" am ${format(veranstaltungs_datum, 'dd.MM.yyyy')}.</p>
+<p>
+Ihre Kontaktdaten:<br>
+Telefonnummer: ${anmeldung.telefonNummer}<br>
+E-Mailadresse: ${anmeldung.email}<br>
+</p>
 <p>
 Damit der Teilnehmerplatz verbindlich reserviert wird, überweisen Sie bitte bis zum ${format(date_payment, 'dd.MM.yyyy')} den Betrag in Höhe von ${anmeldung.veranstaltung.Preis} Euro auf folgendes Konto:
 </p>

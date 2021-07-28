@@ -25,6 +25,10 @@ Hallo  ${anmeldung.name},
 
 vielen Dank für Ihre Anmeldung für die Veranstaltung "${anmeldung.veranstaltung.Titel}" am ${format(veranstaltungs_datum, 'dd.MM.yyyy')}.
 
+Ihre Kontaktdaten:
+Telefonnummer: ${anmeldung.telefonNummer}
+E-Mailadresse: ${anmeldung.email}
+
 Zurzeit sind alle freien Plätze für diesen Kurs vergeben. Sobald ein Platz frei wird, werde ich mich bei Ihnen telefonisch oder per E-Mail melden.
 
 
@@ -63,6 +67,11 @@ Breidt, den ${format(anmelde_datum, 'dd.MM.yyyy')}
 <p>Hallo  ${anmeldung.name},</p>
 <p>
 vielen Dank für Ihre Anmeldung für die Veranstaltung "${anmeldung.veranstaltung.Titel}" am ${format(veranstaltungs_datum, 'dd.MM.yyyy')}.</p>
+</p>
+<p>
+Ihre Kontaktdaten:<br>
+Telefonnummer: ${anmeldung.telefonNummer}<br>
+E-Mailadresse: ${anmeldung.email}<br>
 </p>
 <p>
 Zurzeit sind alle freien Plätze für diesen Kurs vergeben. Sobald ein Platz frei wird, werde ich mich bei Ihnen telefonisch oder per E-Mail melden.
