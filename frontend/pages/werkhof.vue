@@ -84,7 +84,7 @@
               Corona-Infektionszahlen darf ich wieder Kurse in meinen
               Räumlichkeiten anbieten.
               <br />
-              BITTE BEACHTEN SIE DIE HYGIENEAUFLAGEN wie negativer Coronatest
+              BITTE BEACHTEN SIE DIE HYGIENEAUFLAGEN: 2G PLUS – wie negativer Coronatest
               oder 2-facher Impfnachweis bzw. Immunitätsnachweis. Außerdem
               besteht eine FFP2-Maskenpflicht.
               <br />
