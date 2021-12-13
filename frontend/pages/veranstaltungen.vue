@@ -65,7 +65,7 @@
               Räumlichkeiten anbieten.
               <br />
               BITTE BEACHTEN SIE DIE HYGIENEAUFLAGEN: 2G PLUS – wie negativer Coronatest
-              oder 2-facher Impfnachweis bzw. Immunitätsnachweis. Außerdem
+              und 2-facher Impfnachweis bzw. Immunitätsnachweis. Außerdem
               besteht eine FFP2-Maskenpflicht.
               <br />
               Falls Änderungen auftreten sollten, werde ich Sie als Teilnehmer
