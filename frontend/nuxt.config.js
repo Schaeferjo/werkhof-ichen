@@ -151,23 +151,4 @@ export default {
   build: {
     transpile: ['mapbox-gl-controls/lib/styles'],
   },
-
-  generate: {
-    async routes() {
-      let { data: veranstaltungen } = await axios.get(
-        `${apiUrl}/veranstaltungs`,
-        {
-          params: {
-            _sort: 'Datum:ASC',
-            Datum_gte: new Date(),
-          },
-        }
-      )
-      veranstaltungen = veranstaltungen.map((veranstaltung) => {
-        return '/veranstaltung/' + veranstaltung.id
-      })
-
-      return veranstaltungen
-    },
-  },
 }
