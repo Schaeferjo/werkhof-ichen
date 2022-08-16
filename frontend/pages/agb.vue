@@ -66,11 +66,7 @@
               Bankverbindungen mit. Bitte haben Sie Verständnis, dass ich
               Stornierungen ab dem 13. Tag vor Kursbeginn nicht mehr
               berücksichtigen kann und eine Erstattung der Kursgebühr entfällt.
-<<<<<<< HEAD
               Es sei denn, es findet sich ein Ersatzteilnehmer.
-=======
-              Es sei denn es findet sich ein Ersatzteilnehmer.
->>>>>>> master
               <br>
               Wegen Krankheit oder Trauer empfehle ich eine Rücktrittsversicherung abzuschließen. 
             </p>
