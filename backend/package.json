@@ -12,7 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "date-fns": "^2.16.1",
-    "knex": "^0.21.12",
+    "knex": "^2.4.0",
     "pg": "^8.5.1",
     "sqlite3": "latest",
     "strapi": "3.3.2",
